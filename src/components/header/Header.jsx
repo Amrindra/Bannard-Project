@@ -1,4 +1,5 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
 import "./Header.css";
 
 const Header = () => {
@@ -15,18 +16,21 @@ const Header = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav mr-auto">
           <Nav className="justify-content-end nav ">
-            <Nav.Link href="#home" className="nav_item ">
-              Home
-            </Nav.Link>
-            <Nav.Link href="#features" className="nav_item">
-              Features
-            </Nav.Link>
-            <Nav.Link href="#pricing" className="nav_item">
-              Products
-            </Nav.Link>
-            <Nav.Link href="#contact" className="nav_item">
-              Contact
-            </Nav.Link>
+            <LinkContainer to="/">
+              <Nav.Link className="nav_item ">Home</Nav.Link>
+            </LinkContainer>
+
+            <LinkContainer to="/products">
+              <Nav.Link className="nav_item ">Products</Nav.Link>
+            </LinkContainer>
+
+            <LinkContainer to="/services">
+              <Nav.Link className="nav_item ">Services</Nav.Link>
+            </LinkContainer>
+
+            <LinkContainer to="/contact">
+              <Nav.Link className="nav_item ">Contact</Nav.Link>
+            </LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Container>
