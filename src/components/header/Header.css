@@ -5,3 +5,14 @@
 .toggle {
   justify-content: flex-end;
 }
+
+.nav_item {
+  text-align: center;
+  margin: 0 10px;
+  font-size: 1.3rem;
+  /* padding: 20px; */
+}
+
+.nav_item:hover {
+  border-radius: 5px;
+}

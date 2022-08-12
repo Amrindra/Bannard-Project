@@ -9,6 +9,7 @@
   "main": "src/index.js",
   "dependencies": {
     "bootstrap": "5.2.0",
+    "rb-homepage-components-storybook": "0.0.1",
     "react": "18.0.0",
     "react-bootstrap": "2.5.0",
     "react-dom": "18.0.0",
