@@ -1,9 +1,13 @@
+import { Container } from "react-bootstrap";
+import Banner from "../../components/banner/Banner";
 import "./Homepage.css";
 
 const Homepage = () => {
   return (
     <div className="homepage">
-      <div className="homepage_container">This is home papage</div>
+      <Container>
+        <Banner />
+      </Container>
     </div>
   );
 };

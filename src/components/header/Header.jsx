@@ -12,8 +12,11 @@ const Header = () => {
       className="p-4"
     >
       <Container>
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <LinkContainer to="/">
+          <Navbar.Brand>Navbar</Navbar.Brand>
+        </LinkContainer>
+
+        <Navbar.Toggle aria-controls="responsive-navbar-nav toggle" />
         <Navbar.Collapse id="responsive-navbar-nav mr-auto">
           <Nav className="justify-content-end nav ">
             <LinkContainer to="/">

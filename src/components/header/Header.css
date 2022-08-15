@@ -2,8 +2,9 @@
   width: 100%;
 }
 
-.toggle {
-  justify-content: flex-end;
+/* Bootstrap toggle */
+.navbar-toggler {
+  padding: 0 3px;
 }
 
 .nav_item {
