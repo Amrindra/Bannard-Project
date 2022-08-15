@@ -5,7 +5,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <Navbar
-      bg="dark"
+      bg="success"
       variant="dark"
       expand="md"
       collapseOnSelect
@@ -13,7 +13,7 @@ const Header = () => {
     >
       <Container>
         <LinkContainer to="/">
-          <Navbar.Brand>Navbar</Navbar.Brand>
+          <Navbar.Brand>T-Rid</Navbar.Brand>
         </LinkContainer>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav toggle" />
