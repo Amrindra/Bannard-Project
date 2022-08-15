@@ -1,0 +1,18 @@
+.card_proudct {
+  height: 100vh;
+}
+
+.card_product_warpper {
+  width: 350px;
+}
+
+.card_top img {
+  height: 300px;
+}
+
+.card_body .card_button {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
