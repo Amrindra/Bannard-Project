@@ -5,6 +5,7 @@ import CardProduct from "../../components/cardProduct/CardProduct";
 import CarouselSlider from "../../components/carouselSlider/CarouselSlider";
 
 import "./Homepage.css";
+import Footer from "../../components/footer/Footer";
 
 const Homepage = () => {
   return (
@@ -14,6 +15,7 @@ const Homepage = () => {
         <Feature />
       </Container>
       <CarouselSlider />
+      <Footer />
 
       <section className="card_sections"></section>
     </div>
