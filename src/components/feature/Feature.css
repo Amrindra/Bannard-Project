@@ -1,0 +1,35 @@
+.feature {
+  margin-top: 50px;
+}
+
+.feature_top,
+.feature_bottom {
+  display: flex;
+  gap: 50px;
+}
+
+.feature_top_left {
+  flex: 1;
+}
+
+.feature_top_left img,
+.feature_bottom_left img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.feature_top_right {
+  flex: 1;
+}
+
+/* Feature Bottom Section */
+.feature_bottom {
+  margin-top: 100px;
+}
+.feature_bottom_left {
+  flex: 1;
+}
+
+.feature_bottom_right {
+  flex: 1;
+}

@@ -10,7 +10,7 @@ function CarouselSlider() {
   };
 
   return (
-    <Container fluid>
+    <Container>
       <Carousel
         activeIndex={index}
         onSelect={handleSelect}

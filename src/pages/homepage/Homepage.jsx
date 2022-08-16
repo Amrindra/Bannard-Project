@@ -10,7 +10,9 @@ const Homepage = () => {
   return (
     <div className="homepage">
       <Banner />
-      <Feature />
+      <Container>
+        <Feature />
+      </Container>
       <CarouselSlider />
 
       <section className="card_sections"></section>
