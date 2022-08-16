@@ -3,11 +3,12 @@
 }
 
 .card_product_warpper {
-  /* width: 300px; */
+  /* width: 400px; */
 }
 
 .card_top img {
-  height: 300px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .card_body .card_button {

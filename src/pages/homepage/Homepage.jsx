@@ -16,27 +16,26 @@ const Homepage = () => {
       <section className="card_sections">
         <Container>
           <Row>
-            <Col>
+            <Col sm={12} md={6} lg={4} xl={4}>
               <CardProduct />
             </Col>
-            <Col>
+            <Col sm={12} md={6} lg={4} xl={4}>
               <CardProduct />
             </Col>
-            <Col>
+            <Col sm={12} md={6} lg={4} xl={4}>
               <CardProduct />
             </Col>
-            <Col>
+            <Col sm={12} md={6} lg={4} xl={4}>
               <CardProduct />
             </Col>
-          </Row>
-          <Row>
-            <Col>
+            <Col sm={12} md={6} lg={4} xl={4}>
               <CardProduct />
             </Col>
-            <Col>
-              <Col>
-                <CardProduct />
-              </Col>
+            <Col sm={12} md={6} lg={4} xl={4}>
+              <CardProduct />
+            </Col>
+            <Col sm={12} md={6} lg={4} xl={4}>
+              <CardProduct />
             </Col>
           </Row>
         </Container>
