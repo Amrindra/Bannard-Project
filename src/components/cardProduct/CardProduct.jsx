@@ -18,7 +18,7 @@ function CardProduct() {
             dolorum iure blanditiis ipsam. Ratione impedit illo rem ab
             perspiciatis voluptatum perferendis veniam.
           </p>
-          <button className="card_button">Check me out</button>
+          {/* <button className="card_button">Check me out</button> */}
         </div>
       </div>
     </div>
