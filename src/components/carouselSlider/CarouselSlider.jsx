@@ -10,7 +10,7 @@ function CarouselSlider() {
   };
 
   return (
-    <Container>
+    <Container fluid>
       <Carousel
         activeIndex={index}
         onSelect={handleSelect}
@@ -18,7 +18,7 @@ function CarouselSlider() {
       >
         <Carousel.Item>
           <img
-            className=""
+            className="carousel_img"
             src="https://user-images.githubusercontent.com/70451928/184708087-f51ad8f7-fe53-4552-8fc0-d4e7cc0f1c2c.PNG"
             alt="First slide"
           />
@@ -30,7 +30,7 @@ function CarouselSlider() {
 
         <Carousel.Item>
           <img
-            className="d-block"
+            className="d-block carousel_img"
             src="https://user-images.githubusercontent.com/70451928/184708087-f51ad8f7-fe53-4552-8fc0-d4e7cc0f1c2c.PNG"
             alt="Second slide"
           />
@@ -43,7 +43,7 @@ function CarouselSlider() {
 
         <Carousel.Item>
           <img
-            className="d-block "
+            className="d-block carousel_img"
             src="https://user-images.githubusercontent.com/70451928/184708087-f51ad8f7-fe53-4552-8fc0-d4e7cc0f1c2c.PNG"
             alt="Third slide"
           />
