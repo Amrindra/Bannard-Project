@@ -11,9 +11,18 @@ const Homepage = () => {
       <Banner />
       <CarouselSlider />
 
-      <Container>
-        <section className="card_sections">
+      <section className="card_sections">
+        <Container>
           <Row>
+            <Col>
+              <CardProduct />
+            </Col>
+            <Col>
+              <CardProduct />
+            </Col>
+            <Col>
+              <CardProduct />
+            </Col>
             <Col>
               <CardProduct />
             </Col>
@@ -22,13 +31,14 @@ const Homepage = () => {
             <Col>
               <CardProduct />
             </Col>
+            <Col>
+              <Col>
+                <CardProduct />
+              </Col>
+            </Col>
           </Row>
-          <CardProduct />
-          <CardProduct />
-          <CardProduct />
-          <CardProduct />
-        </section>
-      </Container>
+        </Container>
+      </section>
     </div>
   );
 };
