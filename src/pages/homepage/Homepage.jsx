@@ -13,33 +13,7 @@ const Homepage = () => {
       <Feature />
       <CarouselSlider />
 
-      <section className="card_sections">
-        <Container>
-          <Row>
-            <Col sm={12} md={6} lg={4} xl={4}>
-              <CardProduct />
-            </Col>
-            <Col sm={12} md={6} lg={4} xl={4}>
-              <CardProduct />
-            </Col>
-            <Col sm={12} md={6} lg={4} xl={4}>
-              <CardProduct />
-            </Col>
-            <Col sm={12} md={6} lg={4} xl={4}>
-              <CardProduct />
-            </Col>
-            <Col sm={12} md={6} lg={4} xl={4}>
-              <CardProduct />
-            </Col>
-            <Col sm={12} md={6} lg={4} xl={4}>
-              <CardProduct />
-            </Col>
-            <Col sm={12} md={6} lg={4} xl={4}>
-              <CardProduct />
-            </Col>
-          </Row>
-        </Container>
-      </section>
+      <section className="card_sections"></section>
     </div>
   );
 };
