@@ -20,6 +20,21 @@
 
 .feature_top_right {
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Body section */
+.feature_body_wrapper .feature_title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+.feature_body_wrapper .feature_desc {
+  font-size: 2rem;
+  color: var(--light-gray);
 }
 
 /* Feature Bottom Section */
@@ -32,4 +47,7 @@
 
 .feature_bottom_right {
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
