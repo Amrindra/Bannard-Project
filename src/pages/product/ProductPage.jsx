@@ -8,7 +8,7 @@ const ProductPage = () => {
       <Container>
         <Row>
           {cardProducts.map((item) => (
-            <Col sm={12} md={6} lg={4} xl={4} className="pt-5">
+            <Col sm={12} md={6} lg={4} xl={4} className="pt-5" key={item.id}>
               <CardProduct
                 cardImg={item.cardImg}
                 cardTitle={item.cardTitle}

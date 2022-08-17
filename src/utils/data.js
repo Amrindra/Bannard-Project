@@ -9,7 +9,7 @@ export const cardProducts = [
     cardButton: ""
   },
   {
-    id: 1,
+    id: 2,
     cardImg:
       "https://user-images.githubusercontent.com/70451928/184723528-a522a10a-3a3a-46bd-98e6-024f658926e7.png",
     cardTitle: "Card Title",
@@ -18,7 +18,7 @@ export const cardProducts = [
     cardButton: ""
   },
   {
-    id: 1,
+    id: 3,
     cardImg:
       "https://user-images.githubusercontent.com/70451928/184723528-a522a10a-3a3a-46bd-98e6-024f658926e7.png",
     cardTitle: "Card Title",
@@ -27,7 +27,7 @@ export const cardProducts = [
     cardButton: ""
   },
   {
-    id: 1,
+    id: 4,
     cardImg:
       "https://user-images.githubusercontent.com/70451928/184723528-a522a10a-3a3a-46bd-98e6-024f658926e7.png",
     cardTitle: "Card Title",
@@ -36,7 +36,7 @@ export const cardProducts = [
     cardButton: ""
   },
   {
-    id: 1,
+    id: 5,
     cardImg:
       "https://user-images.githubusercontent.com/70451928/184723528-a522a10a-3a3a-46bd-98e6-024f658926e7.png",
     cardTitle: "Card Title",
@@ -45,7 +45,7 @@ export const cardProducts = [
     cardButton: ""
   },
   {
-    id: 1,
+    id: 6,
     cardImg:
       "https://user-images.githubusercontent.com/70451928/184723528-a522a10a-3a3a-46bd-98e6-024f658926e7.png",
     cardTitle: "Card Title",
@@ -54,7 +54,7 @@ export const cardProducts = [
     cardButton: ""
   },
   {
-    id: 1,
+    id: 7,
     cardImg:
       "https://user-images.githubusercontent.com/70451928/184723528-a522a10a-3a3a-46bd-98e6-024f658926e7.png",
     cardTitle: "Card Title",
@@ -63,7 +63,7 @@ export const cardProducts = [
     cardButton: ""
   },
   {
-    id: 1,
+    id: 8,
     cardImg:
       "https://user-images.githubusercontent.com/70451928/184723528-a522a10a-3a3a-46bd-98e6-024f658926e7.png",
     cardTitle: "Card Title",
