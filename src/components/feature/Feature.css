@@ -27,7 +27,7 @@
 
 /* Body section */
 .feature_body_wrapper .feature_title {
-  font-size: 3vw;
+  font-size: 3rem;
   font-weight: bold;
   color: var(--main-color);
 }
@@ -41,6 +41,7 @@
 .feature_bottom {
   margin-top: 100px;
 }
+
 .feature_bottom_left {
   flex: 1;
 }
@@ -50,4 +51,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+  .feature_top,
+  .feature_bottom {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .feature_bottom {
+    margin-top: 20px;
+    flex-direction: column-reverse;
+  }
+
+  /* Body section */
+  .feature_body_wrapper .feature_title {
+    font-size: 2rem;
+  }
+
+  .feature_body_wrapper .feature_desc {
+    font-size: 1.2rem;
+  }
 }

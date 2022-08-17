@@ -10,6 +10,7 @@ const Header = () => {
       expand="md"
       collapseOnSelect
       className="p-4"
+      sticky="top"
     >
       <Container>
         <LinkContainer to="/">
