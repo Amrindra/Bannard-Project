@@ -4,13 +4,12 @@ import CardProduct from "../../components/cardProduct/CardProduct";
 const ProductPage = () => {
   return (
     <div className="product_page">
-      {" "}
       <Container>
-        <Row className="pt-5">
-          <Col sm={12} md={6} lg={4} xl={4}>
+        <Row>
+          <Col sm={12} md={6} lg={4} xl={4} className="pt-5">
             <CardProduct />
           </Col>
-          <Col sm={12} md={6} lg={4} xl={4}>
+          <Col sm={12} md={6} lg={4} xl={4} className="pt-5">
             <CardProduct />
           </Col>
           <Col sm={12} md={6} lg={4} xl={4}>

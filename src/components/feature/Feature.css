@@ -27,7 +27,7 @@
 
 /* Body section */
 .feature_body_wrapper .feature_title {
-  font-size: 3rem;
+  font-size: 3vw;
   font-weight: bold;
   color: var(--main-color);
 }

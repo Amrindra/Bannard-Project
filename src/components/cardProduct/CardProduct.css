@@ -2,13 +2,19 @@
   height: 100vh;
 }
 
-.card_product_warpper {
+.card_product_wrapper {
   /* width: 400px; */
 }
 
 .card_top img {
   width: 100%;
   object-fit: cover;
+}
+
+.card_title {
+  margin-top: 20px;
+  color: var(--main-color);
+  font-size: 2rem;
 }
 
 .card_body .card_button {

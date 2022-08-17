@@ -9,7 +9,7 @@ import Footer from "../../components/footer/Footer";
 
 const Homepage = () => {
   return (
-    <div className="homepage">
+    <main className="homepage">
       <Banner />
       <Container>
         <Feature />
@@ -18,7 +18,7 @@ const Homepage = () => {
       <Footer />
 
       <section className="card_sections"></section>
-    </div>
+    </main>
   );
 };
 
