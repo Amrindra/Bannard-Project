@@ -2,10 +2,6 @@
   height: 100vh;
 }
 
-.card_product_wrapper {
-  /* width: 400px; */
-}
-
 .card_top img {
   width: 100%;
   object-fit: cover;
@@ -15,6 +11,10 @@
   margin-top: 20px;
   color: var(--main-color);
   font-size: 2rem;
+}
+
+.card_desc {
+  color: var(--light-gray);
 }
 
 .card_body .card_button {
