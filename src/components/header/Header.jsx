@@ -9,7 +9,7 @@ const Header = () => {
       variant="dark"
       expand="md"
       collapseOnSelect
-      className="p-4"
+      className="p-3"
       sticky="top"
     >
       <Container>
