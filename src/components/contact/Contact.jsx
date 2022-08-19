@@ -9,17 +9,28 @@ const Contact = () => {
           <h1 className="contact_title">Contact Us</h1>
           <form className="contact_form">
             <div className="input_name_section">
-              <input type="text" placeholder="First Name" required />
-              <input type="text" placeholder="Last Name" />
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                placeholder="First Name"
+                required
+              />
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                placeholder="Last Name"
+              />
             </div>
             <div className="input_email_message_section">
-              <input type="email" placeholder="your email" />
+              <input type="email" id="email" placeholder="Your E-mail" />
               <textarea
-                name=""
-                id=""
-                cols="20"
-                rows="10"
-                placeholder="Message"
+                name="message"
+                id="message"
+                cols="10"
+                rows="5"
+                placeholder="How can we help you?"
               ></textarea>
               <button className="input_button">Send Message</button>
             </div>
