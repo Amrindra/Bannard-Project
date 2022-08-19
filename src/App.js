@@ -4,6 +4,7 @@ import Contact from "./components/contact/Contact";
 import Homepage from "./pages/homepage/Homepage";
 import ProductPage from "./pages/product/ProductPage";
 import "./styles.css";
+import Footer from "./components/footer/Footer";
 
 export default function App() {
   return (
@@ -15,6 +16,8 @@ export default function App() {
         <Route path="/products" element={<ProductPage />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+
+      <Footer />
     </BrowserRouter>
   );
 }
