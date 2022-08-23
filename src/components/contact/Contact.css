@@ -16,6 +16,7 @@
   margin-left: 10px;
   color: white;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .contact input,
@@ -29,7 +30,8 @@
 
 .contact input::placeholder,
 .contact textarea::placeholder {
-  font-weight: 500;
+  font-size: 1.2rem;
+  color: rgb(177, 167, 167);
 }
 
 .input_name_section {
