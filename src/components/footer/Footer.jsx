@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 import "./Footer.css";
-import { FaYoutube, FaFacebookSquare } from "react-icons/fa";
+import { FaYoutubeSquare, FaFacebookSquare } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -10,8 +10,8 @@ const Footer = () => {
           <div className="footer_logo">
             <h1>T-Rid</h1>
             <div className="footer_icons">
-              <FaYoutube />
-              <FaFacebookSquare />
+              <FaYoutubeSquare className="youtube_icon" />
+              <FaFacebookSquare className="facebook_icon" />
             </div>
           </div>
 
